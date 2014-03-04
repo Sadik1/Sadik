@@ -15,8 +15,10 @@ namespace Xamarin.Crash
 		[Outlet]
 		global::Xamarin.Crash.CrashButton crashButton { get; set; }
 
+
 		[Action ("CrashButtonClicked:")]
 		partial void CrashButtonClicked (MonoTouch.Foundation.NSObject sender);
+
 		
 		void ReleaseDesignerOutlets ()
 		{
